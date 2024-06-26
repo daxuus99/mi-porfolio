@@ -49,6 +49,11 @@ export const socialLinks: SocialLink[] = [
     title: "LinkedIn",
     url: "https://www.linkedin.com/in/davidmf99/",
     icon: "mdi:linkedin",
+  },
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/daavidmf99/",
+    icon: "mdi:instagram",
   }
 ];
 
@@ -57,7 +62,7 @@ export const homePageContent: HomePageContent = {
   seo: {
     title: "David Martínez Fernández",
     description:
-      "Explorando el potencial del código y enfrentando constantemente a nuevos retos.",
+      "Apasionado por el código y los nuevos desafíos.",
     image: identity.logo,
   },
   role: "Estudiante y Desarrollador Full-Stack ",
@@ -92,11 +97,11 @@ Soy David Martínez Fernández, desarrollador fullstack y web. <br><br>Tengo un 
 Destaco en el trabajo en equipo gracias a mis habilidades de comunicación y siempre estoy listo para nuevos desafíos.
 `,
     image_l: {
-      url: "/imagen2.jpeg",
+      url: "/imagen2.jpg",
       alt: "Left Picture",
     },
     image_r: {
-      url: "/imagen1.jpeg",
+      url: "/imagen1.jpg",
       alt: "Right Picture",
     },
   },
@@ -108,10 +113,10 @@ work: {
         title: "Web Developer",
         company: {
           name: "Freelance",
-          image: "/logo2.webp",
+          image: "/web.png",
           url: "https://github.com/daxuus99",
         },
-        date: "Enero de 2024 - Actualidad",
+        date: "Actualmente...",
       },
       {
         title: "SEO Analyst and Recruitment",

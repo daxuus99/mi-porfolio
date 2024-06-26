@@ -59,10 +59,10 @@ const { seo } = Astro.props;
     <meta property="og:description" content={seo.description} />
     <meta property="og:image" content={seo.image} />
   </head>
-  <body>
+   <body>
     <div class="relative min-h-screen">
       <div
-        class="absolute top-0 z-0 h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+        class="absolute top-0 z-0 h-screen w-screen bg-neutral-750 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
       >
       </div>
       <header>
@@ -125,7 +125,7 @@ const { seo } = Astro.props;
           <div>
             <a
               href=`mailto:${identity.email}`
-              class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
+              class="block p-2 opacity-60 hover:bg-transparent opacity-60 hover:opacity-30 transition-opacity"
               aria-label="Email"
             >
               <Icon name="mdi:email" width={20} height={20} />

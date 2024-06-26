@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import { aboutPageContent } from "../config";
-import ResumeItem from "../components/ResumeItem.astro";
 import { Markdown } from "@astropub/md";
 import SocialLinkBox from "../components/SocialLinkBox.astro";
 import 'aos/dist/aos.css';
@@ -12,26 +11,26 @@ import 'aos/dist/aos.css';
   <section class="mt-10 max-w-2xl mx-auto px-6">
     <h1 class="font-bold text-3xl mb-1">Sobre mí</h1>
     <p class="opacity-60 mb-10">{aboutPageContent.subtitle}</p>
-    <div class="mb-14">
+    <div class="mb-10">
       <Markdown of={aboutPageContent.about.description} />
     </div>
-    <div class="flex flex-col min-[410px] sm:flex-row">
-      <Image
-        src={aboutPageContent.about.image_l.url}
-        alt={aboutPageContent.about.image_l.alt}
-        width={350}
-        height={250}
-        class="w-[350px] h-[250px] object-cover rounded-xl transform -rotate-6 hover:scale-105 transition-transform duration-300"
-      />
+    <div class="flex flex-col sm:flex-row items-center">
       <Image
         src={aboutPageContent.about.image_r.url}
         alt={aboutPageContent.about.image_r.alt}
-        width={150}
+        width={250}
         height={250}
-        class="w-[150px] h-[250px] object-cover rounded-xl transform rotate-6 mx-auto sm:ml-auto hover:scale-105 transition-transform duration-300"
+        class="w-[60%] sm:w-[200px] h-[250px] object-cover rounded-xl transform rotate-6 mx-auto sm:ml-auto hover:scale-105 transition-transform duration-300"
+      />
+      <Image
+        src={aboutPageContent.about.image_l.url}
+        alt={aboutPageContent.about.image_l.alt}
+        width={250}
+        height={250}
+        class="w-[90%] sm:w-[250px] h-[250px] object-cover rounded-xl transform -rotate-6 hover:scale-105 transition-transform duration-300 mb-4 sm:mb-0 sm:mr-4"
       />
     </div>
-  </section>
+</section>
 
   <section class="mt-12 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
     <h2 class="mb-8 sm:mb-0 opacity-60">Contacto</h2>
@@ -39,7 +38,7 @@ import 'aos/dist/aos.css';
       <div class="mb-6">
         <Markdown of={aboutPageContent.connect.description} />
       </div>
-      <div class="grid grid-cols-3 gap-3 group">
+      <div class="grid grid-cols-2 gap-2 group">
         {
           aboutPageContent.connect.links.map((item) => (
             <SocialLinkBox {...item} />
