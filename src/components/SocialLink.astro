@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon/components";
+import type { SocialLink } from "../types/config";
+
+type Props = SocialLink;
+
+const { title, url, icon, external } = Astro.props;
+---
+
+<a
+  href={url}
+  class="flex items-center gap-3 opacity-50 hover:opacity-100 transition duration-200 ease-in-out"
+  target={external ? "_blank" : "_self"}
+>
+  <Icon name={icon} width={25} height={25} />
+  <div>
+    <p>{title}</p>
+  </div>
+</a>
