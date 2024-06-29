@@ -113,7 +113,7 @@ work: {
         title: "Web Developer",
         company: {
           name: "Freelance",
-          image: "/web.png",
+          image: "/logo3.webp",
           url: "https://github.com/daxuus99",
         },
         date: "Actualmente...",
@@ -121,7 +121,7 @@ work: {
       {
         title: "SEO Analyst and Recruitment",
         company: {
-          name: "Freelance",
+          name: "Business Practices",
           image: "/bytek.png",
           url: "https://bytek.ai/en/",
         },
