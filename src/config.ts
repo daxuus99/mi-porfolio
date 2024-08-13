@@ -4,7 +4,6 @@ import type {
   Identity,
   AboutPageContent,
   ProjectPageContent,
-  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
@@ -26,11 +25,7 @@ export const navBarLinks: NavBarLink[] = [
   {
     title: "Proyectos",
     url: "/projects",
-  },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
+  }
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -159,14 +154,4 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://climabcn.com/",
     },  
   ],
-};
-
-// Blog (/blog)
-export const blogPageContent: BlogPageContent = {
-  seo: {
-    title: "Blog | David Martínez",
-    description: "Pensamientos, historias e ideas.",
-    image: identity.logo,
-  },
-  subtitle: "Pensamientos, historias e ideas.",
 };

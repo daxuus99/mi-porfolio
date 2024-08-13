@@ -4,7 +4,6 @@
     <p>Inspiración: <a href="https://minimal-portfolio.witzdam.com/">Minimal Portfolio</a></p>
 </div>
 
-![alt text](public/image.png)
 # Bienvenido a Mi Portfolio
 
 Hola, soy David Martínez Fernández, un desarrollador apasionado por crear experiencias web únicas y atractivas. Este es el repositorio de mi portfolio personal, donde podrás encontrar una muestra de mis proyectos, habilidades y un poco sobre mí.
