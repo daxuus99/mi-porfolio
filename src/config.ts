@@ -144,7 +144,7 @@ export const projectsPageContent: ProjectPageContent = {
       description: `Tecnologías Utilizadas: WordPress, tema personalizado, HTML, CSS, JavaScript`,
       image: "/yosoyjosema.jpg",
       year: "2024",
-      url: "https://myblog-tqsoty0icq.live-website.com/",
+      url: "https://yosoyjosema.com",
     },
     {
       title: "Desarrollo de Página Web para Venta de Calderas",
@@ -152,6 +152,13 @@ export const projectsPageContent: ProjectPageContent = {
       image: "/climabcn.jpg",
       year: "2024",
       url: "https://climabcn.com/",
+    },  
+    {
+      title: "Desarrollo de Página Web para Venta de Servicios de PC",
+      description: "Tecnologías Utilizadas: WordPress, personalización de temas, HTML, CSS, JS PHP, MySQL.",
+      image: "/pcarmoryes.png",
+      year: "2024",
+      url: "https://pcarmoryes.com/",
     },  
   ],
 };
