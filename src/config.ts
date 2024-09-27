@@ -103,7 +103,15 @@ Destaco en el trabajo en equipo gracias a mis habilidades de comunicación y sie
 work: {
     description: `He tenido la oportunidad de trabajar con diversas tecnologías y herramientas para desarrollar proyectos fascinantes. 
     A continuación, algunos de los proyectos en los que he participado.`,
-    items: [
+    items: [{
+      title: "Backend Developer",
+      company: {
+        name: "Nter Tech Services",
+        image: "/nteer.png",
+        url: "https://nter.es/",
+      },
+      date: "Septiembre 2024 - Actualmente...",
+    },
       {
         title: "Web Developer",
         company: {
@@ -111,12 +119,12 @@ work: {
           image: "/logo3.webp",
           url: "https://github.com/daxuus99",
         },
-        date: "Actualmente...",
+        date: "Enero 2024 - Septiembre 2024",
       },
       {
         title: "SEO Analyst and Recruitment",
         company: {
-          name: "Business Practices",
+          name: "BYTEK | the martech of Datrix group",
           image: "/bytek.png",
           url: "https://bytek.ai/en/",
         },
