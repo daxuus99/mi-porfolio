@@ -104,7 +104,7 @@ work: {
     description: `He tenido la oportunidad de trabajar con diversas tecnologías y herramientas para desarrollar proyectos fascinantes. 
     A continuación, algunos de los proyectos en los que he participado.`,
     items: [{
-      title: "Backend Developer",
+      title: "Frontend Developer",
       company: {
         name: "Nter Tech Services",
         image: "/nteer.png",
