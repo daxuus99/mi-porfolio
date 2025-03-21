@@ -46,32 +46,44 @@ import { techStack } from "../config";
   
   <section class="my-20 mt-12 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
     <div>
-      <h2 class="font-bold text-3xl sm:text-4xl mb-4">Mi tecnologías</h2>
-      <p class="mb-10">
+      <h2 class="font-bold text-3xl sm:text-4xl mb-4 text-white">
+        Mis tecnologías
+      </h2>
+      <p class="mb-10 text-gray-300">
         Como desarrollador Frontend, he trabajado con distintos frameworks, herramientas y tecnologías tanto del lado cliente como en bases de datos y control de versiones.
       </p>
   
       <div class="grid md:grid-cols-2 gap-8">
         {techStack.map((category) => (
-          <div class="bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-700 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all p-6 relative overflow-hidden group">
-            <div class="absolute inset-0 opacity-10 group-hover:opacity-40 transition-all duration-300 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-            <div class="relative z-10">
-              <h3 class="text-xl font-bold mb-6 text-primary">{category.title}</h3>
-              {category.items.length > 0 ? (
-                <div class="flex flex-wrap gap-5 justify-center">
-                  {category.items.map((tech) => (
-                    <div class="flex flex-col items-center w-20">
-                      <div class="w-12 h-12 rounded-full bg-gray-200 dark:bg-zinc-700 flex items-center justify-center shadow-md hover:shadow-lg transition">
-                        <img src={tech.icon} alt={tech.name} class="w-6 h-6" />
-                      </div>
-                      <span class="mt-2 text-sm text-gray-700 dark:text-gray-300">{tech.name}</span>
+          <div
+            class="border border-gray-600 rounded-2xl p-6 shadow-md transition duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+            style="
+              background: #1B1B1B;
+              background: -webkit-linear-gradient(135deg, #000000, #000000);
+              background: -moz-linear-gradient(135deg, #5c5c5c, #1B1B1B);
+              background: linear-gradient(135deg, #020003, #07000d);
+            "
+          >
+            <h3 class="text-xl font-semibold text-white mb-4">
+              {category.title}
+            </h3>
+  
+            {category.items.length > 0 ? (
+              <div class="grid grid-cols-2 gap-6 place-items-center">
+                {category.items.map((tech) => (
+                  <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 rounded-full bg-[#2C2C2C] flex items-center justify-center">
+                      <img src={tech.icon} alt={tech.name} class="w-6 h-6" />
                     </div>
-                  ))}
-                </div>
-              ) : (
-                <p class="text-sm opacity-60">Próximamente...</p>
-              )}
-            </div>
+                    <span class="mt-2 text-sm text-gray-200">
+                      {tech.name}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p class="text-gray-500">Próximamente...</p>
+            )}
           </div>
         ))}
       </div>
