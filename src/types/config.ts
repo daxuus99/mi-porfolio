@@ -82,3 +82,11 @@ export type ProjectPageContent = {
   subtitle: string;
   projects: Project[];
 };
+
+export type TechCategory = {
+  title: string;
+  items: {
+    name: string;
+    icon: string;
+  }[];
+};

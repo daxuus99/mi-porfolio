@@ -5,6 +5,7 @@ import type {
   AboutPageContent,
   ProjectPageContent,
   HomePageContent,
+  TechCategory,
 } from "./types/config";
 
 export const identity: Identity = {
@@ -75,6 +76,34 @@ export const homePageContent: HomePageContent = {
     },
   ],
 };
+
+export const techStack: TechCategory[] = [
+  {
+    title: "Frontend",
+    items: [
+      { name: "Angular", icon: "/tech/angular.svg" },
+      { name: "Vue.js", icon: "/tech/vue.svg" },
+      { name: "Typescript", icon: "/tech/typescript.svg" },
+      { name: "Sass", icon: "/tech/sass.svg" },
+    ],
+  },
+  {
+    title: "Backend",
+    items: [],
+  },
+  {
+    title: "Bases de datos",
+    items: [
+      { name: "MySQL", icon: "/tech/mysql.svg" },
+    ],
+  },
+  {
+    title: "Herramientas",
+    items: [
+      { name: "Git", icon: "/tech/git.svg" },
+    ],
+  },
+];
 
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
