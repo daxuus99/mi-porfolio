@@ -61,7 +61,7 @@ export const homePageContent: HomePageContent = {
       "Apasionado por el código y los nuevos desafíos.",
     image: identity.logo,
   },
-  role: "Estudiante y Desarrollador Full-Stack ",
+  role: "Frontend Developer",
   description:
     "Apasionado por el código y los nuevos desafíos.",
   socialLinks: socialLinks,
@@ -117,7 +117,7 @@ export const aboutPageContent: AboutPageContent = {
   about: {
     description: `
   
-Soy David Martínez Fernández, desarrollador fullstack y web. <br><br>Tengo un grado superior en Desarrollo de Aplicaciones Multiplataforma, lo que me ha dado una sólida base técnica. 
+Soy David Martínez Fernández, desarrollador fullstack y web. <br>Tengo un grado superior en Desarrollo de Aplicaciones Multiplataforma, lo que me ha dado una sólida base técnica. 
 Destaco en el trabajo en equipo gracias a mis habilidades de comunicación y siempre estoy listo para nuevos desafíos.
 `,
     image_l: {
@@ -130,8 +130,8 @@ Destaco en el trabajo en equipo gracias a mis habilidades de comunicación y sie
     },
   },
 work: {
-    description: `He tenido la oportunidad de trabajar con diversas tecnologías y herramientas para desarrollar proyectos fascinantes. 
-    A continuación, algunos de los proyectos en los que he participado.`,
+    description: `A lo largo de mi trayectoria profesional, he trabajado en diferentes roles y sectores, adquiriendo habilidades en desarrollo web, frontend y análisis SEO. 
+    Estas son algunas de mis experiencias laborales:`,
     items: [{
       title: "Frontend Developer",
       company: {
@@ -183,13 +183,6 @@ export const projectsPageContent: ProjectPageContent = {
       year: "2024",
       url: "https://yosoyjosema.com",
     },
-    {
-      title: "Desarrollo de Página Web para Venta de Calderas",
-      description: "Tecnologías Utilizadas: WordPress, WooCommerce, personalización de temas, PHP, MySQL.",
-      image: "/climabcn.jpg",
-      year: "2024",
-      url: "https://climabcn.com/",
-    },  
     {
       title: "Desarrollo de Página Web para Venta de Servicios de PC",
       description: "Tecnologías Utilizadas: WordPress, personalización de temas, HTML, CSS, JS PHP, MySQL.",
